@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Whisper", cursive;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    max-width: 168px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+span {
+    margin-left: 30px;
+    color: blueviolet;
+}
+
+.section1 {
+    background-image: url(./image/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 480px;
+    height: 400px;
+}
+
+.header-wrap{
+    margin-top: 10px;
+    gap: 320px;
+}
+.h1-section1 {
+    display: flex;
+    justify-content: center;
+    /* Центрирует содержимое по горизонтали */
+    align-items: center;
+    /* Центрирует содержимое по вертикали */
+    height: 100%;
+    /* Высота контейнера равна высоте вьюпорта */
+    font-family: "Whisper", cursive;
+    text-align: center;
+    /* Центрирует текст внутри блока */
+}
+
+.h1-section1 h1 {
+    color: white;
+    /* Цвет текста */
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+    /* Четыре тени для создания обводки */
+    font-family: "Whisper", cursive;
+    font-size: 36px;
+}
+.img_section2{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+}
+p{
+    text-align: center;
+    font-family: "Whisper", cursive;
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 18px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+.avtor{
+    gap: 10px;
+}
+.block1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 420px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: start;
+    background-color: antiquewhite;
+}
+.block2{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 420px;
+    font-family: "Whisper", cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 19px;
+    line-height: 18px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+button{
+    line-height: 40px;
+    width: 420px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+.block3{
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: start;
+    color: black;
+}
+.span-button{
+    color: gray;
+}
+.button-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+}
+.button-wrap{
+    gap: 20px;
+}
+.button2{
+    line-height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+.button-img2{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.button-wrap2{
+    gap: 5px;
+}
+.button-img3{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    transform: rotate(180deg);
+}
+.button-wrap-wrap{
+    gap: 190px;
+}
+.block4{
+    font-weight: normal;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    width: 420px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 19px;
+    text-align: start;
+    background-color: antiquewhite;
+}
+.block5-wrap{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo-img{
+    max-width: 60px;
+    height: 50px;
+    margin-left: 30px;
+}
